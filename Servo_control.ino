@@ -13,6 +13,7 @@ Servo Servo1;
 Servo Servo2;
 int pos1=90;
 int pos2=90;
+int pos=0;
 
 void setup() { 
   
@@ -34,7 +35,7 @@ void loop() {
     Servo2.write(pos);
     delay(5);
   }
-  delay(2000);
+  delay(1000);
   for (pos = 150; pos >= pos1; pos -= 1) {
     Servo1.write(pos);
     delay(5);

@@ -1,26 +1,48 @@
-Connect the 3 pins of the servo:
-1- to 5v preferably external
-2- to Ground 
-3- the 3rd cable to pin 13
+//Connect the 3 pins of the servo:
+//1- (red) to 5v preferably external
+//2- (brown) to Ground 
+//3- (orange) to pin 5
 
-void setup() {
-  // put your setup code here, to run once:
-pinMode(13,OUTPUT);
-pinMode(2,INPUT_PULLUP);
+// Second Servo, save for red and brown
+// connect the orange cable of the servo to pin 6
+
+
+#include <Servo.h> 
+
+Servo Servo1; 
+Servo Servo2;
+int pos1=90;
+int pos2=90;
+
+void setup() { 
+  
+   Servo2.attach(5); 
+   Servo1.attach(6); 
+   Servo1.write(pos1);
+   Servo2.write(pos2);
+   delay(1000);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  int val = digitalRead(2);
-
-  if(val== HIGH) {
-    
+  
+  for (pos = pos1; pos <= 150; pos += 1) {
+   Servo1.write(pos);
+   delay(10);
   }
-  else{
-    digitalWrite(13,LOW);
-    delay(100);
-    digitalWrite(13,HIGH);
-    delay(100);
-    
+  delay(1000);
+  for (pos = pos2; pos >= 30; pos -= 1) {
+    Servo2.write(pos);
+    delay(5);
   }
+  delay(2000);
+  for (pos = 150; pos >= pos1; pos -= 1) {
+    Servo1.write(pos);
+    delay(5);
+  }
+  delay(1000);
+  for (pos = 30; pos <= pos2; pos += 1) {
+    Servo2.write(pos);
+    delay(5);
+  }
+  delay(1000);
 }

@@ -25,3 +25,10 @@ Following are the connections for the sensors and bluetooth:
 ## Bluetooth:
 ![bluetooth](https://user-images.githubusercontent.com/12084024/33548741-e0abdda6-d8f0-11e7-84ef-ec52d4d1569d.jpg)
 
+
+
+## Debug Note:
+### to solve: </br>
+avrdude: ser_open(): can't open device "/dev/ttyACM0": Device or resource busy</br>
+Problem uploading to board.  See http://www.arduino.cc/en/Guide/Troubleshooting#upload for suggestions.</br>
+Change to card type on Tools/Boards to any other type and then put back the right one

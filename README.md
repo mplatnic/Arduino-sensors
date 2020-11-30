@@ -3,8 +3,9 @@
 Here are provided several Arduino code examples to be used with several sensors and bluetooth connected to the Arduino-Uno board.
 
 The only library needed is for the Sonar sensor: NewPing 
-the library can be installed from:
-https://bitbucket.org/teckel12/arduino-new-ping/downloads/
+the library can be installed </br>
+- from: https://bitbucket.org/teckel12/arduino-new-ping/downloads/ </br>
+- or directly from Arduino GUI through Sketch/include libraries/manage libraries, then serach for NewPing and then press install.
 
 The Arduino sensor files have two modes for using the monitor;
 one mode for visualisation on the IDE monitor (Serial.print)

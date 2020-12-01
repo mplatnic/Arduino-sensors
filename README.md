@@ -3,11 +3,10 @@
 Here are provided several Arduino code examples to be used with several sensors and bluetooth connected to the Arduino-Uno board.
 
 The only library needed is for the Sonar sensor: NewPing 
-the library can be installed </br>
-- from: https://bitbucket.org/teckel12/arduino-new-ping/downloads/ </br>
-- or directly from Arduino GUI through Sketch/include libraries/manage libraries, then serach for NewPing and then press install.
+the library can be installed from:
+https://bitbucket.org/teckel12/arduino-new-ping/downloads/
 
-The Arduino sensor files have two modes for using the monitor;
+The Arduino sensor files have two modes for using the monitor; </br>
 one mode for visualisation on the IDE monitor (Serial.print)
 and one mode to be used for processing (Serial.write).
 
@@ -26,9 +25,6 @@ Following are the connections for the sensors and bluetooth:
 ![bluetooth](https://user-images.githubusercontent.com/12084024/33548741-e0abdda6-d8f0-11e7-84ef-ec52d4d1569d.jpg)
 
 
-
-## Debug Note:
-### to solve: </br>
-avrdude: ser_open(): can't open device "/dev/ttyACM0": Device or resource busy</br>
-Problem uploading to board.  See http://www.arduino.cc/en/Guide/Troubleshooting#upload for suggestions.</br>
-Change to card type on Tools/Boards to any other type and then put back the right one
+Using a sensor shield: </br>
+https://www.learnrobotics.org/blog/arduino-lcd-using-sensor-shield-v5/
+![Arduino-Sensor-Shield-v5](https://user-images.githubusercontent.com/12084024/100626559-a3875680-332e-11eb-8334-fd65a98c8520.jpg)

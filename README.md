@@ -1,4 +1,11 @@
-# Arduino-sensors
+# Example of projects using Arduino
+Robot Hand: https://www.youtube.com/watch?v=1QHJksTrk8s  </br>
+CNC drawing: https://www.youtube.com/watch?v=UZgvcBqchVw  </br>
+Drawing Machine: https://www.youtube.com/watch?v=pHXdAg-uWHY </br>
+3D plotter: https://create.arduino.cc/projecthub/DesiEngineer/how-to-make-a-big-3d-printer-at-home-using-arduino-4a7b79
+
+
+# Arduino Connected to sensors
 
 Here are provided several Arduino code examples to be used with several sensors and bluetooth connected to the Arduino-Uno board.
 

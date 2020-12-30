@@ -2,10 +2,12 @@
 Robot Hand: https://www.youtube.com/watch?v=1QHJksTrk8s  </br>
 CNC drawing: https://www.youtube.com/watch?v=UZgvcBqchVw  </br>
 Drawing Machine: https://www.youtube.com/watch?v=pHXdAg-uWHY </br>
-3D plotter: https://create.arduino.cc/projecthub/DesiEngineer/how-to-make-a-big-3d-printer-at-home-using-arduino-4a7b79
+3D plotter: https://create.arduino.cc/projecthub/DesiEngineer/how-to-make-a-big-3d-printer-at-home-using-arduino-4a7b79 </br>
+Tranparent material and moving Camera: https://www.youtube.com/watch?v=beXHCwpWWrE </br>
+Glass Sculpture: https://www.youtube.com/watch?v=V4UYowgg4UU </br>
+Interactive storefront: https://vimeo.com/77752390 </br>
 
-
-# Arduino Connected to sensors
+# Coding: Arduino Connected to sensors
 
 Here are provided several Arduino code examples to be used with several sensors and bluetooth connected to the Arduino-Uno board.
 
